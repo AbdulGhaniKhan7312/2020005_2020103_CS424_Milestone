@@ -12,6 +12,7 @@ TOKENS = [
     'OPERATOR', 'SEPARATOR', 'STRING_CONSTANT', 'FLOAT_CONSTANTS', 'CHAR_CONSTANTS', 'DATATYPE' , 'BOOL_CONST'
 ]
 # blank_var = "#include <iostream> using namespace std; void main () { if(a<b) {return i++;}else{i=0;}switch(a){case 'A': cin>>input;cout<<abcd;default: break;}}"
+print("Enter your statement below: ")
 blank_var = input()
 print("INPUT FILE:\n", blank_var)
 class bcolors:
